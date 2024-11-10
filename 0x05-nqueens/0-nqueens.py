@@ -4,7 +4,7 @@ import sys
 
 
 def print_board(board, n):
-    """Print allocated positions to the queen"""
+    """Print allocated positions to the queens"""
     b = []
 
     for i in range(n):
