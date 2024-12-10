@@ -21,7 +21,7 @@ def calculate_primes(n, primes):
                 primes.append(0)
 
 
-def is_winner(x, nums):
+def isWinner(x, nums):
     """Prime Game"""
 
     players_wins = {"Maria": 0, "Ben": 0}
