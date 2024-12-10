@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" Prime Game Algorithm Python """
+"""Prime Game Algorithm Using Python"""
 
 
 def is_prime(n):
-    """ Checks if a number given n is a prime number """
+    """Checks if a number given n is a prime number"""
     for i in range(2, int(n ** 0.5) + 1):
         if not n % i:
             return False
@@ -11,7 +11,7 @@ def is_prime(n):
 
 
 def calculate_primes(n, primes):
-    """ Calculate all primes """
+    """Calculate all primes"""
     top_prime = primes[-1]
     if n > top_prime:
         for i in range(top_prime + 1, n + 1):
@@ -21,7 +21,7 @@ def calculate_primes(n, primes):
                 primes.append(0)
 
 
-def isWinner(x, nums):
+def is_winner(x, nums):
     """Prime Game"""
 
     players_wins = {"Maria": 0, "Ben": 0}
